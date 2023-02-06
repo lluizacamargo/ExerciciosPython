@@ -6,8 +6,9 @@ print(' / Divisão')
 print('Precisone outra tecla para Sair')
 
 op = input ('Qual operação deseja fazer? ')
-x = int(input('Digite o primeiro valor: '))
-y = int(input ('Digite o segundo valor: '))
+if op == '+' or op == '-' or op == '*' or op == '/':
+    x = int(input('Digite o primeiro valor: '))
+    y = int(input ('Digite o segundo valor: '))
 
 if (op == '+'):
     res = x + y
